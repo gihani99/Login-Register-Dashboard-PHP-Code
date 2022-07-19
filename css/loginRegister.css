@@ -1,0 +1,351 @@
+
+.flex-r,
+.flex-c {
+  justify-content: center;
+  display: flex;
+}
+.flex-c {
+  flex-direction: column;
+  padding-left: 50px;
+}
+.flex-r {
+  flex-direction: row;
+}
+
+.login-text {
+  background-color: #f6f6f6;
+  max-width: 400px;
+  min-height: 500px;
+  border-radius: 10px;
+  padding: 10px 20px;
+}
+
+.logo {
+  margin-bottom: 20px;
+}
+.logo span,
+.logo span i {
+  font-size: 25px;
+  color: #0d8aa7;
+}
+
+.login-text h1 {
+  font-size: 25px;
+}
+.login-text p {
+  font-size: 15px;
+  color: #000000b2;
+}
+
+form {
+  width: 100%;
+  margin-top: 15px;
+}
+
+.input-box {
+  margin: 10px 0px;
+  width: 100%;
+}
+.label {
+  font-size: 15px;
+  color: black;
+    display: none;
+  margin-bottom: 3px;
+}
+
+.input {
+    /* background-color: #f6f6f6; */
+    padding: 0px 5px;
+    /* border: 2px solid rgba(216, 216, 216, 1); */
+    /* border-radius: 10px; */
+    overflow: hidden;
+    justify-content: flex-start;
+    border-bottom: 1px solid;
+    width: 50%;
+}
+
+input {
+  border: none;
+  outline: none;
+  padding: 10px 5px;
+  background-color: #f6f6f600;
+  flex: 1;
+  color:#68bed1;;
+}
+.input i {
+  color: rgb(98, 99, 102);
+}
+.check{
+    margin-left: 215px;
+}
+.check a{
+    text-decoration: none;
+}
+.check span {
+  color: #000000b2;
+  font-size: 15px;
+  font-weight: bold;
+  margin-left: 5px;
+}
+
+.btn {
+    color: #ffffff;
+    border-radius: 12px;
+    padding: 10px 15px;
+    background: linear-gradient(122.33deg, #68bed1 30.62%, #1e94e9 100%);
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    transition: all 0.3s linear;
+    width: 50%;
+    cursor: pointer;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+}
+.extra-line {
+  font-size: 15px;
+  font-weight: 600;
+}
+.extra-line a {
+  color: #0095b6;
+}
+
+
+.inrto-ftr{
+    padding-top: 40px;
+}
+.inrto-ftr span{
+    padding-bottom: 15px;
+    line-height: 40px;
+}
+
+.footr a{
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+
+
+
+@media (min-width: 768px) {
+    .box-content{
+        margin: 150px 200px 0px;
+        max-width: 700px;
+        padding: 0px 20px;
+        border-radius: 30px;
+        background: #e7e7e7;
+        box-shadow: 0px 8px 9px 0px #888888;
+        position: relative;
+        padding-bottom: 25px;
+    }
+    .login-header{
+        line-height: 16px;
+        padding-left: 45px;
+    }
+    
+    .login-header :first-child{
+        display: block;
+        padding-top: 80px;
+        font-size: 24px;
+        color: #676767;
+        font-weight: 700;
+    }
+    .login-header :last-child{
+        font-size: 16px;
+        color: #919191;
+        font-weight: 300;
+    }
+
+    .login-image img{
+        height: 456px;
+        width: 315px;
+        position: absolute;
+        top: 0;
+        left: 80%;
+        box-shadow: 5px 8px 11px 2px #888888;
+        border-radius: 10px;
+       
+    }
+
+    .signup-image img{
+      height: 576px;
+      width: 395px;
+      position: absolute;
+      top: 0;
+      left: 80%;
+      box-shadow: 5px 8px 11px 2px #888888;
+      border-radius: 10px;
+    }
+
+    footer{
+        background: gainsboro;
+        /* padding: 45px; */
+        margin-top: 100px;
+        width: 99%;
+        position: absolute;
+        /* margin-left: -11px; */
+        padding: 41px 2px;
+        text-align: center;
+    }
+}
+footer .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  footer .fa:hover {
+      opacity: 0.7;
+  }
+  
+  footer  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  footer .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  footer .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+  
+  footer  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+
+
+
+
+
+
+  .body-content-home {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+  }
+  .body-box-wrap-home {
+    width: 75%;
+  }
+  
+  .box-items-home .itm-img-home img {
+    width: 150px;
+    height: 193px;
+  }
+  .box-item-container-home {
+    margin: 0 auto;
+    /* justify-content: flex-start; */
+    /* align-items: center; */
+    text-align: center;
+    width: 88%;
+    margin-top: 90px;
+    border: 2px solid;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    background-color: #1e94e9;
+  }
+  .box-home-row-one {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .box-items-home {
+    max-height: 300px;
+    justify-content: center;
+    align-items: center;
+    /* margin: auto 0; */
+    padding: 15px;
+    margin: 10px;
+    border-radius: 15px;
+    transition: 0.3s;
+    font-family: "Open Sans", sans-serif;
+  }
+  .box-items-home:hover {
+    box-shadow: -2px 7px 18px 3px rgb(0 0 0 / 80%);
+    background-color: #485e76;
+    z-index: 2;
+    margin-top: 2px;
+    transition: 0.3s;
+    color: white;
+  }
+  
+  .diasble-home-icon {
+    display: none;
+    margin-top: -10px;
+  }
+  .box-items-home:hover .diasble-home-icon {
+    display: block;
+    margin-top: -10px;
+  }
+  
+  .box-home-row-one a {
+    color: black;
+    text-decoration: none;
+  }
+  .profile-img-home {
+    text-align: center;
+    position: relative;
+  }
+  .profile-img-home img {
+    width: 29px;
+    margin-top: 20px;
+  }
+  
+  .view-a-button {
+    padding: 15px;
+    display: block;
+    border: 1px solid;
+    margin-top: 15px;
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    background: white;
+    border-radius: 5px;
+  }
+  .view-a-button:hover {
+    box-shadow: -2px 7px 18px 3px rgb(0 0 0 / 80%);
+    background-color: #485e76;
+    transition: 0.3s;
+    color: white;
+  }
+  .profile-img-home i {
+    opacity: 0;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* border: 1px solid; */
+    padding: 34%;
+    border-radius: 100%;
+    background: #00000073;
+    color: white;
+  }
+  .profile-img-home i:hover {
+    opacity: 1;
+    display: block;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* border: 1px solid; */
+    padding: 34%;
+    border-radius: 100%;
+    background: #00000073;
+    color: white;
+  }
+
+
+ 
+  
